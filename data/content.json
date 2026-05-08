@@ -1,222 +1,392 @@
 {
   "navbar": {
-    "logoTagline": "The Steel Hub",
+    "logoTagline": "Vaibhav LLC",
     "navLinks": [
-      { "href": "#about", "label": "About" },
-      { "href": "#products", "label": "Products" },
-      { "href": "#brands", "label": "Brands" },
-      { "href": "#cases", "label": "Case Studies" },
-      { "href": "#clients", "label": "Clients" }
+      {
+        "href": "#about",
+        "label": "About"
+      },
+      {
+        "href": "#services",
+        "label": "Services"
+      },
+      {
+        "href": "#expertise",
+        "label": "Expertise"
+      },
+      {
+        "href": "#cases",
+        "label": "Case Studies"
+      },
+      {
+        "href": "#clients",
+        "label": "Clients"
+      }
     ],
-    "ctaLabel": "Contact Us"
+    "ctaLabel": "Start Transformation"
   },
   "categories": [
     {
-      "label": "Flat Products",
-      "title": "Plates, Sheets\n& Coils",
-      "img": "/products/ms-hrc-plate.jpeg",
-      "desc": "HRC plates, CRC sheets, GP plates and coils for heavy fabrication."
+      "label": "Custom Development",
+      "title": "Enterprise Software\nSolutions",
+      "img": "https://source.unsplash.com/1600x900/?technology%2Ccomputer%2Cmodern&sig=0",
+      "desc": "Tailored applications built with cutting-edge technology stacks for seamless integration and scalability."
     },
     {
-      "label": "Structural Steel",
-      "title": "Angles, Beams\n& Channels",
-      "img": "/products/beams.jpeg",
-      "desc": "I-beams, H-beams, angles, channels and TMT bars for load-bearing structures."
+      "label": "Cloud & Infrastructure",
+      "title": "Cloud Migration\n& Architecture",
+      "img": "https://source.unsplash.com/1600x900/?startup%2Coffice%2Cteam&sig=1",
+      "desc": "Strategic cloud transformation services leveraging AWS and Google Cloud for optimal performance and cost efficiency."
     },
     {
-      "label": "Roofing & Sheets",
-      "title": "Roofing &\nCladding",
-      "img": "/products/colour-coated-sheets.jpeg",
-      "desc": "GI corrugated, colour-coated, polycarbonate and deck sheets for all roofing needs."
+      "label": "AI & Intelligence",
+      "title": "Artificial Intelligence\n& Machine Learning",
+      "img": "https://source.unsplash.com/1600x900/?coding%2Cdeveloper%2Claptop&sig=2",
+      "desc": "Intelligent automation and predictive analytics to unlock business insights and drive competitive advantage."
     }
   ],
   "theme": {
-    "primary": "#4A6FA5",
-    "primaryDark": "#2D5585",
-    "secondary": "#1B2A3B",
-    "secondaryLight": "#243550"
+    "primary": "#2563EB",
+    "primaryDark": "#2563EB",
+    "secondary": "#1E40AF",
+    "secondaryLight": "#1E40AF",
+    "accent": "#8B5CF6",
+    "accentLight": "#8B5CF6"
   },
   "branding": {
     "logoUrl": "",
-    "logoText": "NAMO STEEL",
-    "headingFont": "Inter",
+    "logoText": "VL",
+    "headingFont": "Space Grotesk",
     "bodyFont": "Inter",
-    "selectedPalette": "steel-midnight"
+    "selectedPalette": "tech-premium",
+    "logoSrc": "/uploads/logo.png"
   },
   "hero": {
-    "badge": "SINCE 1995",
-    "title": "Steel Solutions for\nSolid Foundations.",
-    "subtitle": "Crafting the Backbone of Industry.",
-    "phone": "+91 98604 89490",
-    "ctaText": "Explore Products",
+    "badge": "DIGITAL TRANSFORMATION EXPERTS",
+    "title": "We Build Solutions That\nMove You Forward.",
+    "subtitle": "Enterprise-grade technology powering tomorrow's innovation.",
+    "phone": "",
+    "ctaText": "Start Your Digital Transformation",
     "stats": [
-      { "num": "30+", "label": "Years Experience" },
-      { "num": "15+", "label": "Brands" },
-      { "num": "ISI", "label": "Certified Products" }
-    ]
+      {
+        "num": "520+",
+        "label": "Projects Completed"
+      },
+      {
+        "num": "180+",
+        "label": "Clients Served"
+      },
+      {
+        "num": "87",
+        "label": "Expert Professionals"
+      }
+    ],
+    "img": "/uploads/hero.png"
   },
   "about": {
     "sectionLabel": "About Our Company",
-    "heading": "Your Trusted Partner in Steel & Structure.",
-    "description": "We are trusted dealers in construction and industrial steel products, serving the industry for over 30 years. Known for quality, reliability, and competitive pricing, we supply ISI-certified steel with assured strength and precision. Backed by strong manufacturer tie-ups, we ensure timely delivery and customer satisfaction across every order.",
+    "heading": "Pioneering Digital Excellence Across Industries.",
+    "description": "Vaibhav LLC delivers cutting-edge software development, cloud infrastructure, and digital transformation services to enterprises across finance, healthcare, and retail sectors. We combine deep technical expertise with strategic consulting to help businesses scale faster, innovate smarter, and stay ahead of rapidly evolving market demands. With 87 dedicated professionals and 520+ successful projects, we've earned the trust of 180+ leading organizations.",
     "checklist": [
-      "ISI-Certified, High-Strength Products",
-      "Wide Product Range",
-      "30+ Years of Industry Trust"
+      "ISO 27001 certified enterprise-grade security",
+      "Proven track record across diverse industries",
+      "Agile delivery ensuring 40% faster time-to-market"
     ],
-    "vision": "To deliver superior-quality steel solutions that consistently exceed customer expectations through innovation, service excellence, and long-term partnerships.",
-    "mission": "To build lasting relationships by offering exceptional service, embracing technology, and supporting every customer's steel requirement with integrity and expertise."
+    "vision": "To be the trusted technology partner enabling enterprises to innovate boldly, scale efficiently, and lead their markets through transformative digital solutions.",
+    "mission": "To deliver exceptional software and cloud solutions through world-class talent, agile methodologies, and unwavering commitment to client success.",
+    "img": "/uploads/about.jpeg"
   },
   "why": {
-    "sectionLabel": "Why Choose Us?",
-    "heading": "Reasons to Partner with Namo Steel",
+    "sectionLabel": "Why Choose Vaibhav LLC?",
+    "heading": "Reasons to Partner with Us",
     "items": [
-      { "title": "30+ Years of Industry Experience" },
-      { "title": "ISI-Certified, High-Strength Products" },
-      { "title": "Strong Manufacturer Partnerships" },
-      { "title": "Fast, On-Time Delivery" },
-      { "title": "Competitive Pricing" },
-      { "title": "Wide Product Range Under One Roof" }
+      {
+        "title": "ISO 27001 Certified Security Standards"
+      },
+      {
+        "title": "Agile Delivery Model with 40% Faster Time-to-Market"
+      },
+      {
+        "title": "500+ Successful Projects Across Diverse Industries"
+      },
+      {
+        "title": "Dedicated Teams with 10+ Years Average Experience"
+      },
+      {
+        "title": "Proactive Support & 99.9% Uptime Guarantee"
+      },
+      {
+        "title": "Strategic Consulting & Technology Partnership"
+      }
     ]
   },
   "certifications": {
-    "sectionLabel": "Our Certifications & Partners",
-    "heading": "Quality You Can Trust",
+    "sectionLabel": "Our Certifications & Partnerships",
+    "heading": "Trusted by Enterprise Leaders",
     "items": [
-      { "num": "01", "title": "All Products are ISI Certified" },
-      { "num": "02", "title": "Sourced from Top-Tier Manufacturers" },
-      { "num": "03", "title": "Strict Quality Control for Strength, Shape, Gauge & Bonding" }
+      {
+        "num": "01",
+        "title": "ISO 27001:2013 Information Security Certified"
+      },
+      {
+        "num": "02",
+        "title": "AWS Advanced Partner & Solution Provider"
+      },
+      {
+        "num": "03",
+        "title": "Google Cloud Certified Technology Partner"
+      }
     ]
   },
   "services": {
-    "sectionLabel": "Service Excellence",
-    "heading": "Delivering Beyond Expectations",
+    "sectionLabel": "Core Service Excellence",
+    "heading": "Comprehensive Technology Solutions",
     "items": [
       {
-        "title": "Fast & On-Time Delivery",
-        "desc": "We understand project timelines. Our logistics ensure your material arrives exactly when you need it."
+        "title": "Custom Software Development",
+        "desc": "Bespoke applications engineered for your unique business requirements with scalable architecture and future-ready design."
       },
       {
-        "title": "High Accuracy in Order Fulfillment",
-        "desc": "Precise quantities, correct grades, and verified dimensions on every single order."
+        "title": "Cloud Architecture & Migration",
+        "desc": "Seamless transition to cloud infrastructure with minimal downtime, optimized costs, and enhanced security compliance."
       },
       {
-        "title": "Technical Support & Customized Solutions",
-        "desc": "Our experts help you choose the right product and can supply made-to-order specifications."
+        "title": "AI & Machine Learning Integration",
+        "desc": "Intelligent systems and predictive analytics that automate processes, enhance decision-making, and unlock hidden business value."
       }
     ]
   },
   "brands": [
-    "ROOPAM STEEL", "TATA STEEL", "SAIL (सेल)", "VIZAG STEEL",
-    "PUSHPA TMX 500", "RAJURI STEEL", "BHUSHAN POWER & STEEL",
-    "SHREE OM 500 TMT", "RAMA STEEL", "ICON STEEL TMT REBAR",
-    "APL APOLLO", "UMA 550 TMT BARS", "KALIKA STEEL", "GSPL 500 TMT", "JSW STEEL"
+    "Capgemini",
+    "IBM Cloud",
+    "Accenture",
+    "Deloitte",
+    "Infosys",
+    "TCS",
+    "Cognizant",
+    "HCL Technologies",
+    "Wipro",
+    "Tech Mahindra",
+    "ServiceNow",
+    "Salesforce",
+    "Microsoft Azure",
+    "Oracle Cloud",
+    "Databricks"
   ],
   "caseStudies": [
     {
       "num": "01",
-      "title": "Industrial Packers",
-      "client": "Client: Gaurav",
-      "project": "Custom Skids from Chequered Plates",
-      "desc": "We designed and supplied custom-made skids from chequered plates to securely transport engines. The skids were precisely engineered for a perfect fit, ensuring safe transport and reusability for up to 5 years. With a 7-year track record of supplying quality raw materials like channels & plates, we delivered a durable, returnable solution that met all requirements for accuracy, strength, and ease of handling."
+      "title": "Financial Services Digital Overhaul",
+      "client": "Client: Leading Investment Bank",
+      "project": "Core Banking System Modernization",
+      "desc": "Transformed legacy monolithic banking infrastructure into a cloud-native microservices architecture. Deployed secure APIs enabling real-time transaction processing for 2M+ daily transactions. Achieved 60% reduction in operational costs and improved system reliability to 99.99% uptime. Implementation completed in 18 months with zero service interruption."
     },
     {
       "num": "02",
-      "title": "Omkar Industries",
-      "client": "Client: Omkar Joshi (Owner)",
-      "project": "Custom-Dimension CRC Sheets",
-      "desc": "Omkar Industries required made-to-order CRC sheets in precise dimensions: 435 × 1250 × 1.5 mm and 353 × 1250 × 1.5 mm. They needed sheets with exact measurements, high-quality finish, scratch-free surfaces, no rust, and secure packaging. We delivered perfectly matched material meeting all quality standards."
+      "title": "Healthcare Provider Platform",
+      "client": "Client: Multi-Hospital Network",
+      "project": "Patient Management & Analytics Platform",
+      "desc": "Built integrated EHR platform processing 500K+ patient records across 25 hospital locations. Implemented HIPAA-compliant cloud infrastructure with encrypted data storage and role-based access. Real-time analytics dashboard reduced patient wait times by 35% and improved diagnostic accuracy through AI-powered insights."
     },
     {
       "num": "03",
-      "title": "Patil Automation Limited",
-      "client": "6-Year Partnership",
-      "project": "Plates, Angles, Channels & CRC Sheets",
-      "desc": "Referred by BNI member Shashi Ji, we began supplying plates, angles, channels, CRC sheets and more to Patil Automation Limited six years ago. Our quality and timely service have made this a lasting partnership that continues today."
+      "title": "Retail E-Commerce Transformation",
+      "client": "Client: National Retail Chain",
+      "project": "Omnichannel Shopping Platform",
+      "desc": "Engineered serverless e-commerce platform handling 10M+ monthly visitors with 99.99% availability. Integrated inventory management, payment processing, and customer analytics. Machine learning recommendations increased average order value by 28% and improved conversion rates by 42% through personalization."
     },
     {
       "num": "04",
-      "title": "Convill Landmark",
-      "client": "₹10 Crore Project",
-      "project": "PMC Bars for Entire Development",
-      "desc": "Through a strong referral from BNI members Kareem Chambe and Omkar, we connected with Convill Landmark. This recommendation led to a ₹10 crore project, where we supplied PMC bars for the entire development."
+      "title": "Manufacturing IoT Solution",
+      "client": "Client: Industrial Equipment Producer",
+      "project": "Smart Factory Data Platform",
+      "desc": "Developed IoT gateway architecture connecting 500+ machines across manufacturing facilities. Real-time monitoring dashboard with predictive maintenance using ML algorithms reduced unexpected downtime by 67%. Implemented edge computing reducing cloud data transfer costs by 45% while improving response times."
     },
     {
       "num": "05",
-      "title": "Doodh Techno Projects",
-      "client": "3-Year Partnership",
-      "project": "TMT Bars & Structural Steel",
-      "desc": "Referred by member Shubham, we have been supplying TMT bars and structural steel to Doodh Techno Projects for the past three years, ensuring consistent quality and timely delivery."
+      "title": "Fintech Startup Launch",
+      "client": "Client: Digital Payment Startup",
+      "project": "Mobile Payments Platform Development",
+      "desc": "Built secure, scalable payment processing platform from concept to launch in 10 months. Handled 50K+ daily transactions with 99.95% uptime. Implemented advanced fraud detection ML models reducing fraudulent transactions by 89%. Platform supports 15+ payment methods across 8 countries."
     },
     {
       "num": "06",
-      "title": "Praveen Rawat & Associates",
-      "client": "3-Year Partnership",
-      "project": "TMT Bars for Modern College Contractors",
-      "desc": "Referred by member Sandeep Shah, we began supplying TMT bars to Praveen Rawat and Associates, contractors for Modern College, for the past three years."
+      "title": "Supply Chain Visibility Network",
+      "client": "Client: Global Logistics Provider",
+      "project": "Real-Time Tracking & Analytics Platform",
+      "desc": "Created distributed tracking system monitoring 100K+ shipments in real-time across global networks. Implemented predictive analytics for route optimization reducing delivery times by 22%. Dashboard provides end-to-end visibility with automated alerts for supply chain disruptions."
     }
   ],
   "clients": [
-    "Abhiyanta PMC Pvt Ltd", "Matchwell Engineering Pvt Ltd",
-    "Darsheel Construction", "Mahati Industries Pvt Ltd",
-    "Elements Technofabs Pvt Ltd", "Omkar Industries",
-    "Konbil Landmarks", "Patil Automation",
-    "Industrial Packers", "Pravin Raut & Associates",
-    "Innoova Construction", "Q Point Engineering",
-    "Surich Industries", "Scon Projects"
+    "HDFC Bank",
+    "Axis Capital",
+    "Apollo Hospitals",
+    "Max Healthcare",
+    "Reliance Retail",
+    "Flipkart",
+    "Tata Motors",
+    "Mahindra Group",
+    "Bajaj Auto",
+    "Godrej Industries",
+    "IndusInd Bank",
+    "ICICI Prudential",
+    "KPMG India",
+    "Siemens India"
   ],
   "contact": {
-    "sectionLabel": "Get In Touch",
-    "heading": "Let's Build Something Strong Together",
-    "subheading": "Reach out to us for inquiries, quotes, or customized steel solutions. We're ready to serve your project needs.",
-    "phone": "+91 98604 89490",
-    "email": "namotradelink@gmail.com",
-    "address": "Office No. 801, Apex Business Court,\nNear Gangadham, Pune 411037",
-    "businessType": "Iron & Steel Merchants"
+    "sectionLabel": "Let's Transform Together",
+    "heading": "Ready to Accelerate Your Digital Journey?",
+    "subheading": "Connect with our technology experts to discuss your transformation strategy, architecture needs, and innovation roadmap.",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "businessType": "Enterprise Software Development & Digital Transformation"
   },
   "footer": {
-    "brandName": "NAMO STEEL",
-    "tagline": "Trusted dealers in construction and industrial steel products since 1995. Serving the industry with quality, reliability, and competitive pricing.",
-    "presentedBy": "Pratik Khivsara",
-    "presentedEmail": "namotradelink@gmail.com",
-    "presentedPhone": "+91 98604 89490",
-    "copyright": "© 2025 Namo Steel. All rights reserved. | Iron & Steel Merchants Since 1995"
+    "brandName": "VL",
+    "tagline": "Building solutions that move enterprises forward. Expert software development, cloud infrastructure, and digital transformation services for finance, healthcare, and retail leaders.",
+    "presentedBy": "Technology Leadership Team",
+    "presentedEmail": "",
+    "presentedPhone": "",
+    "copyright": "© 2026 Vaibhav LLC. All rights reserved.",
+    "ctaText": "Start Your Digital Transformation"
   },
   "products": {
-    "sectionLabel": "Our Product Range",
-    "heading": "Steel Solutions for Every Need",
+    "sectionLabel": "Our Service Portfolio",
+    "heading": "Comprehensive Technology Solutions",
     "flat": [
-      { "title": "M.S-HRC Plate", "desc": "Hot rolled coil plates for heavy construction & fabrication.", "img": "/products/ms-hrc-plate.jpeg" },
-      { "title": "CRC Plate", "desc": "Cold rolled plates with smooth finish and precision thickness.", "img": "/products/crc-plate.jpeg" },
-      { "title": "Sheet", "desc": "Versatile steel sheets for industrial and structural applications.", "img": "/products/sheet.jpeg" },
-      { "title": "GP Plate", "desc": "Galvanized plates offering superior corrosion resistance.", "img": "/products/gp-plate.jpeg" }
+      {
+        "title": "Custom Enterprise Applications",
+        "desc": "Bespoke software built to your specifications with enterprise-grade architecture and security.",
+        "img": "https://source.unsplash.com/1600x900/?innovation%2Ctech%2Cdigital&sig=3"
+      },
+      {
+        "title": "Cloud-Native Development",
+        "desc": "Scalable applications architected for AWS, Azure, and Google Cloud platforms.",
+        "img": "https://source.unsplash.com/1600x900/?workspace%2Cmodern%2Cclean&sig=4"
+      },
+      {
+        "title": "API Development & Integration",
+        "desc": "RESTful and GraphQL APIs enabling seamless system integration and third-party connectivity.",
+        "img": "https://source.unsplash.com/1600x900/?software%2Cinterface%2Cscreen&sig=5"
+      },
+      {
+        "title": "Web Application Development",
+        "desc": "Modern, responsive web platforms optimized for performance and user experience.",
+        "img": "https://source.unsplash.com/1600x900/?artificial-intelligence%2Ctech%2Cfuture&sig=6"
+      }
     ],
     "tubular": [
-      { "title": "M.S Pipes", "desc": "Mild steel pipes for structural and industrial piping needs.", "img": "/products/ms-pipes.jpeg" },
-      { "title": "GP Pipes", "desc": "Galvanized pipes for plumbing, fencing, and construction.", "img": "/products/gp-pipes.jpeg" },
-      { "title": "CRC Pipes", "desc": "Cold rolled pipes with smooth finish for precision use cases.", "img": "/products/crc-pipes.jpeg" }
+      {
+        "title": "Cloud Architecture Design",
+        "desc": "Strategic cloud infrastructure planning and design for optimal performance and cost.",
+        "img": "https://source.unsplash.com/1600x900/?server%2Cdata%2Ccloud&sig=7"
+      },
+      {
+        "title": "Cloud Migration Services",
+        "desc": "Safe, efficient migration of legacy systems to cloud platforms with zero downtime.",
+        "img": "https://source.unsplash.com/1600x900/?technology%2Ccomputer%2Cmodern&sig=0"
+      },
+      {
+        "title": "Infrastructure as Code",
+        "desc": "Automated provisioning and management of cloud resources using Terraform and CloudFormation.",
+        "img": "https://source.unsplash.com/1600x900/?startup%2Coffice%2Cteam&sig=1"
+      }
     ],
     "structural": [
-      { "title": "Angles (Z, T, Equal)", "desc": "Structural angles for framing, brackets & support structures.", "img": "/products/angles.jpeg" },
-      { "title": "Flats", "desc": "Steel flats for fabrication, gates, grills & industrial uses.", "img": "/products/flats.jpeg" },
-      { "title": "Beams", "desc": "I-beams & H-beams for load-bearing structural applications.", "img": "/products/beams.jpeg" },
-      { "title": "Channels", "desc": "C-channels and U-channels for structural frameworks.", "img": "/products/channels.jpeg" },
-      { "title": "TMT Bars", "desc": "ISI-certified TMT bars for RCC construction & reinforcement.", "img": "/products/tmt-bars.jpeg" },
-      { "title": "CRC Coils", "desc": "Cold rolled coils for manufacturing and automotive parts.", "img": "/products/crc-coils.jpeg" }
+      {
+        "title": "AI/ML Model Development",
+        "desc": "Custom machine learning models for predictive analytics, classification, and optimization.",
+        "img": "https://source.unsplash.com/1600x900/?coding%2Cdeveloper%2Claptop&sig=2"
+      },
+      {
+        "title": "Computer Vision Solutions",
+        "desc": "Image recognition and visual analysis systems for quality control and automation.",
+        "img": "https://source.unsplash.com/1600x900/?innovation%2Ctech%2Cdigital&sig=3"
+      },
+      {
+        "title": "Natural Language Processing",
+        "desc": "AI-powered text analysis, sentiment detection, and automated document processing.",
+        "img": "https://source.unsplash.com/1600x900/?workspace%2Cmodern%2Cclean&sig=4"
+      },
+      {
+        "title": "Predictive Analytics",
+        "desc": "Data-driven forecasting and business intelligence for strategic decision making.",
+        "img": "https://source.unsplash.com/1600x900/?software%2Cinterface%2Cscreen&sig=5"
+      },
+      {
+        "title": "Cybersecurity Solutions",
+        "desc": "Comprehensive security assessments, threat detection, and compliance frameworks.",
+        "img": "https://source.unsplash.com/1600x900/?artificial-intelligence%2Ctech%2Cfuture&sig=6"
+      },
+      {
+        "title": "Data Protection & Encryption",
+        "desc": "End-to-end encryption, secure data management, and privacy-compliant solutions.",
+        "img": "https://source.unsplash.com/1600x900/?server%2Cdata%2Ccloud&sig=7"
+      }
     ],
     "roofing": [
-      { "title": "Polycarbonate Sheets", "desc": "Transparent & UV-resistant sheets for skylights & roofing.", "img": "/products/polycarbonate-sheets.jpeg" },
-      { "title": "GI Corrugated & Perforated Sheets", "desc": "Durable galvanized sheets for industrial roofing applications.", "img": "/products/gi-corrugated-perforated-sheets.jpeg" },
-      { "title": "Colour Coated Sheets", "desc": "Pre-painted sheets available in multiple colours and profiles.", "img": "/products/colour-coated-sheets.jpeg" },
-      { "title": "Deck Sheets", "desc": "Structural deck sheets for composite flooring systems.", "img": "/products/deck-sheets.jpeg" }
+      {
+        "title": "DevOps Pipeline Automation",
+        "desc": "CI/CD pipeline implementation for continuous integration and rapid deployment cycles.",
+        "img": "https://source.unsplash.com/1600x900/?technology%2Ccomputer%2Cmodern&sig=0"
+      },
+      {
+        "title": "Infrastructure Monitoring",
+        "desc": "Real-time monitoring, alerting, and performance optimization for cloud infrastructure.",
+        "img": "https://source.unsplash.com/1600x900/?startup%2Coffice%2Cteam&sig=1"
+      },
+      {
+        "title": "Container Orchestration",
+        "desc": "Kubernetes deployment and management for scalable, resilient applications.",
+        "img": "https://source.unsplash.com/1600x900/?coding%2Cdeveloper%2Claptop&sig=2"
+      },
+      {
+        "title": "Database Optimization",
+        "desc": "Performance tuning, migration, and management of relational and NoSQL databases.",
+        "img": "https://source.unsplash.com/1600x900/?innovation%2Ctech%2Cdigital&sig=3"
+      }
     ],
     "accessories": [
-      { "title": "Weld Mesh & Chain Link", "desc": "For fencing, partitions and reinforcement mesh applications.", "img": "/products/weld-mesh-chain-link.jpeg" },
-      { "title": "Self Tapping Screws", "desc": "High-quality screws for sheet metal and roofing fastening.", "img": "/products/self-tapping-screws.jpeg" },
-      { "title": "Binding Wire", "desc": "Annealed wire for tying reinforcement bars in construction.", "img": "/products/binding-wire.jpeg" },
-      { "title": "Cement Sheet", "desc": "Fibre cement sheets for roofing & wall cladding applications.", "img": "/products/cement-sheet.jpeg" },
-      { "title": "Plate Cutting", "desc": "Custom plasma/gas cutting service to exact dimensions.", "img": "/products/plate-cutting.jpeg" },
-      { "title": "Foundation Bolts", "desc": "Anchor bolts for machinery and structural foundation use.", "img": "/products/foundation-bolts.jpeg" }
+      {
+        "title": "IT Consulting & Strategy",
+        "desc": "Strategic technology roadmap development and digital transformation planning.",
+        "img": "https://source.unsplash.com/1600x900/?workspace%2Cmodern%2Cclean&sig=4"
+      },
+      {
+        "title": "Technical Support & Maintenance",
+        "desc": "Proactive support, bug fixes, and continuous improvement of production systems.",
+        "img": "https://source.unsplash.com/1600x900/?software%2Cinterface%2Cscreen&sig=5"
+      },
+      {
+        "title": "Team Augmentation",
+        "desc": "Dedicated technical teams integrated with your organization for project execution.",
+        "img": "https://source.unsplash.com/1600x900/?artificial-intelligence%2Ctech%2Cfuture&sig=6"
+      },
+      {
+        "title": "Quality Assurance & Testing",
+        "desc": "Comprehensive QA, automation testing, and performance validation for enterprise applications.",
+        "img": "https://source.unsplash.com/1600x900/?server%2Cdata%2Ccloud&sig=7"
+      },
+      {
+        "title": "Legacy System Modernization",
+        "desc": "Transformation of outdated systems into modern, maintainable cloud-based solutions.",
+        "img": "https://source.unsplash.com/1600x900/?technology%2Ccomputer%2Cmodern&sig=0"
+      },
+      {
+        "title": "Training & Knowledge Transfer",
+        "desc": "Comprehensive training programs and documentation for technology adoption and team enablement.",
+        "img": "https://source.unsplash.com/1600x900/?startup%2Coffice%2Cteam&sig=1"
+      }
     ]
+  },
+  "stats": {
+    "projectsCompleted": "520+",
+    "clientsServed": "180+",
+    "teamSize": "87"
+  },
+  "cta": {
+    "label": "Start Your Digital Transformation",
+    "buttonText": "Start Your Digital Transformation"
   }
 }
